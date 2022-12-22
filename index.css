@@ -1,0 +1,25 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    background: blue;
+
+    /* display flex */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-flow: wrap;
+}
+
+.box{
+    width: 300px;
+    height: 200px;
+    background-color: yellow;
+    margin: 20px;
+    box-sizing: border-box;
+    font-size: 50px;
+}
